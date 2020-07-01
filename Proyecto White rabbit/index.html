@@ -4,34 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login form</title>
-    <script defer src="script.js"></script>
+    <title>White rabbit</title>
+    <link rel="stylesheet" href="seriousStyle.css">
 </head>
 
 <body>
-    <h1>Hello World</h1>
-    <div id="error"></div>
-    <form id="form" action="gdd" method="GET">
-        <div>
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required/>
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input id="password" name="name" type="password">
-        </div>
-        <button type="submit">Submit</button>
-    </form>
+    <header class="headerH1">
+        <h1>White rabbit</h1>
+    </header>
 
-    <div>
-        <p id="paragraph">You can change this paragraph if you click the button</p>
-        <button type="button" onclick="changeParagraph()">Second version</button> 
-        <button type="button" onclick="originalParagraph()">First version</button>
+    <div class="description">
+        <p>Your time</p>
+        <p id="redLight">is running</p>
     </div>
 
-    <div>
-        <p>By clicking the button below, you can display an alert window</p>
-        <button id="message" onclick="display()">Try it!</button>
+    <div class="mainBox">
+        <p>This site allows you to have a better control of your time.</p>
+        <p>Don't think that you have all the time of the world</p>
+        <p>Have self discipline and don't waste your time</p>
+
+        <a href="Images/Image.png"><img id="rabbit" alt="Rabbit" src="Rabbit.jpg"></a>
     </div>
-    
+
+    <div id = "accounts">
+        <a id = "userLink" href="userRegister.html">Create user account</a>
+        <a id = "supervisorLink" href="supervisorRegister.html">Create supervisor account</a>
+    </div>
+
+    <footer id="footer">
+        <p class = "footerContent">White rabbit project</p>
+    </footer>
 </body>
+</html>
